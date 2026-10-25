@@ -29,6 +29,15 @@ The current system recognizes the following 24 static letters:
 The letters \*\*J and Z are not included\*\* because they depend on hand motion and therefore require temporal information rather than a single-frame hand pose.
 
 
+## Demo
+
+A short real-time demonstration of the ASL fingerspelling recognition system is available here:
+
+[▶ Watch the demo](demo/asl_fingerspelling_demo.mp4)
+
+The demo shows live hand landmark tracking and real-time classification of static ASL fingerspelling letters.
+
+
 
 \## System Pipeline
 
@@ -503,8 +512,6 @@ asl-visual-coach/
 ├── data/
 
 │   ├── asl\_static.csv
-
-│   ├── pilot\_landmarks.csv
 
 │   ├── signdata.csv
 
