@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+
+data/signdata.csv
+data/*backup*.csv
+
+# Pilot scripts
+capture_data.py
+train_model.py
+realtime_recognition.py
+
+# Pilot data/model
+data/landmarks.csv
+models/asl_classifier.joblib
